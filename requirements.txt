@@ -1,0 +1,4 @@
+# Light install: core pipeline + demo mode. No heavy ML downloads.
+# Full offline stack (Faster-Whisper + Qwen3 + Piper + mic + dashboard):
+#   pip install -r requirements-full.txt
+numpy>=1.24

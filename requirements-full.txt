@@ -1,0 +1,8 @@
+# Full offline stack: STT (Faster-Whisper) + LLM (Qwen 3 via llama.cpp)
+# + TTS (Piper) + live mic capture. Multi-GB model downloads on first run.
+-r requirements.txt
+faster-whisper>=1.0.0
+llama-cpp-python>=0.3.0
+piper-tts>=1.2.0
+sounddevice>=0.4.6
+onnxruntime>=1.17.0
